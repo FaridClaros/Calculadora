@@ -40,6 +40,11 @@ namespace Calculadora
                     Console.WriteLine($"Su resultado es: {num1} - {num2} =" + (num1 - num2));
                     break;
                 case "d":
+                    while (num2 == 0)
+                    {
+                        Console.WriteLine("Introduce un numero que no sea 0 para dividir");
+                        num2 = Convert.ToInt32(Console.ReadLine());
+                    }
                     Console.WriteLine($"Su resultado es : {num1} / {num2} =" + (num1 / num2));
                     break;
             }
