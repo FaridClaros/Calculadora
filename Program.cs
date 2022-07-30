@@ -10,16 +10,16 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            float num1 = 0; float num2 = 0;
+            double num1 = 0; double num2 = 0;
 
             Console.WriteLine("Calculadora en consola C#/r");
             Console.WriteLine("-------------------------/n");
 
             Console.WriteLine("Escriba un numero, luego presione Enter");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Escriba otro numero y presione enter");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Elija una operacion matematica de la lista");
             Console.WriteLine("\ts-suma");
