@@ -10,7 +10,7 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            int num1 = 0; int num2 = 0;
+            float num1 = 0; float num2 = 0;
 
             Console.WriteLine("Calculadora en consola C#/r");
             Console.WriteLine("-------------------------/n");
